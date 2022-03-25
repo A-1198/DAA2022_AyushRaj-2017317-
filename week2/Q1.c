@@ -13,10 +13,9 @@ int bubbleSort(int arr[], int n){
                 cmp++;
                 flag=1;
             }
-            if(flag==0)
-                break;
-
         }
+         if(flag==0)
+                break;
     }
     return cmp;
 }
